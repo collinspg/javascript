@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: black;
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+#intro {
+    background: #d4af37;
+    padding: 50px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.gallery-container img {
+    width: 400px;
+    height: 300px;    
+    object-fit: cover; 
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 1.2em;
+    color: #333;
+    align-self: flex-start;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+button {
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+form p {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 18px;
+}
